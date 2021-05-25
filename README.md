@@ -1,7 +1,14 @@
 ## STS Benchmark Evaluator 
 STS Benchmark Evaluator is a helper library that evaluates [Sentence Transformer](https://github.com/UKPLab/sentence-transformers) models for Semantic Textual Similarity Tasks. 
 
-This utilises the STS-Benchmark test set for the evaluation.
+This utilises the STS-Benchmark test set for the evaluation. This should work for the other SemEval datasets as well. 
+
+### How to run
+1. Install dependencies and needed libraries
+```bash
+pipenv install  
+```
+1. You can take a look at my example notebook in `run_stsbenchmark.ipynb`
 
 ## Further work
 - Increase test scope to STS-Benchmark dev set
@@ -9,6 +16,7 @@ This utilises the STS-Benchmark test set for the evaluation.
 
 ## Citation 
 
+```
 @inproceedings{reimers-2019-sentence-bert,
     title = "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
     author = "Reimers, Nils and Gurevych, Iryna",
@@ -18,3 +26,5 @@ This utilises the STS-Benchmark test set for the evaluation.
     publisher = "Association for Computational Linguistics",
     url = "https://arxiv.org/abs/1908.10084",
 }
+```
+
