@@ -11,7 +11,6 @@ pipenv install
 - You can take a look at my example notebook in `run_stsbenchmark.ipynb`
 
 ## Further work
-- Increase test scope to STS-Benchmark dev set
 - Increase test scope to other STS related evaluation (depending on need)
 
 ## Citation 
