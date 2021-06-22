@@ -1,0 +1,13 @@
+model,stsb_dataset_name,cosine_spearman
+paraphrase-multilingual-mpnet-base-v2,data/sts-test.csv,0.8682219047835629
+stsb-xlm-r-multilingual,data/sts-test.csv,0.8503663468095377
+paraphrase-multilingual-MiniLM-L12-v2,data/sts-test.csv,0.8441678301403761
+paraphrase-xlm-r-multilingual-v1,data/sts-test.csv,0.8349527193541164
+distiluse-base-multilingual-cased-v2,data/sts-test.csv,0.807547875467642
+LaBSE,data/sts-test.csv,0.7225055380332865
+paraphrase-multilingual-mpnet-base-v2,data/sts-test-ml.csv,0.6341583902856095
+stsb-xlm-r-multilingual,data/sts-test-ml.csv,0.6336716063761837
+paraphrase-multilingual-MiniLM-L12-v2,data/sts-test-ml.csv,0.6118353309379856
+paraphrase-xlm-r-multilingual-v1,data/sts-test-ml.csv,0.6026660561913397
+distiluse-base-multilingual-cased-v2,data/sts-test-ml.csv,0.5474150773033309
+LaBSE,data/sts-test-ml.csv,0.5318675905362893
