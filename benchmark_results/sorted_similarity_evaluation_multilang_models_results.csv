@@ -7,7 +7,15 @@ distiluse-base-multilingual-cased-v2,data/sts-test.csv,0.807547875467642
 LaBSE,data/sts-test.csv,0.7225055380332865
 paraphrase-multilingual-mpnet-base-v2,data/sts-test-ml.csv,0.6341583902856095
 stsb-xlm-r-multilingual,data/sts-test-ml.csv,0.6336716063761837
+paraphrase-multilingual-mpnet-base-v2,../data/sts-test-vi.csv,0.6265472133925664
+paraphrase-multilingual-mpnet-base-v2,../data/sts-test-th.csv,0.6192682373584009
 paraphrase-multilingual-MiniLM-L12-v2,data/sts-test-ml.csv,0.6118353309379856
+paraphrase-multilingual-mpnet-base-v2,../data/sts-test-zh.csv,0.6052726127430685
+paraphrase-multilingual-MiniLM-L12-v2,../data/sts-test-vi.csv,0.6037541386963938
+paraphrase-multilingual-MiniLM-L12-v2,../data/sts-test-zh.csv,0.6032880514028351
 paraphrase-xlm-r-multilingual-v1,data/sts-test-ml.csv,0.6026660561913397
+paraphrase-multilingual-MiniLM-L12-v2,../data/sts-test-th.csv,0.6000013617198022
 distiluse-base-multilingual-cased-v2,data/sts-test-ml.csv,0.5474150773033309
 LaBSE,data/sts-test-ml.csv,0.5318675905362893
+paraphrase-multilingual-mpnet-base-v2,../data/sts-test-tl.csv,0.36567875871165906
+paraphrase-multilingual-MiniLM-L12-v2,../data/sts-test-tl.csv,0.3394533385140273
