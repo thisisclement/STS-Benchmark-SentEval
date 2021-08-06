@@ -10,8 +10,22 @@ pipenv install
 ```
 - You can take a look at my example notebook in `run_stsbenchmark.ipynb`
 
-## Further work
-- Increase test scope to other STS related evaluation (depending on need)
+
+### Benchmark Results
+|Model                                |Dataset                |Spearman STS-B Score|
+|-------------------------------------|-----------------------|--------------------|
+|paraphrase-multilingual-MiniLM-L12-v2|Tagalog STS-B|0.3394533385140273  |
+|paraphrase-multilingual-mpnet-base-v2|Tagalog STS-B|0.36567875871165906 |
+|paraphrase-multilingual-MiniLM-L12-v2|Thai STS-B|0.6000013617198022  |
+|paraphrase-multilingual-MiniLM-L12-v2|Chinese STS-B|0.6032880514028351  |
+|paraphrase-multilingual-MiniLM-L12-v2|Vietnamese STS-B|0.6037541386963938  |
+|paraphrase-multilingual-mpnet-base-v2|Chinese STS-B|0.6052726127430685  |
+|paraphrase-multilingual-MiniLM-L12-v2|Malay STS-B   |0.6118353309379856  |
+|paraphrase-multilingual-mpnet-base-v2|Thai STS-B|0.6192682373584009  |
+|paraphrase-multilingual-mpnet-base-v2|Vietnamese STS-B|0.6265472133925664  |
+|paraphrase-multilingual-mpnet-base-v2|Malay STS-B   |0.6341583902856095  |
+
+The multilingual models perform relatively well on Bahasa Malay, Vietnamese, Thai and Chinese but performs poorly on Tagalog related STS tasks. This might be due to the lack of parallel data for the Tagalog language. 
 
 ## Citation 
 

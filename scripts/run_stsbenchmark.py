@@ -14,7 +14,7 @@ parser.add_argument("-d", "--data_path", help="The data path for benchmarking.")
 parser.add_argument("-m", "--model_path", help="The model path for benchmarking.")
 parser.add_argument("-n", "--benchmark_name", help="Name of Benchmark run.")
 parser.add_argument("-o", "--output", help="Output path of the for Benchmark results.")
-parser.add_argument("-ssl", help="SSL Cert path (optional)", action="store_true")
+parser.add_argument("-ssl", help="SSL Cert path (optional)")
 
 args = parser.parse_args()
 
@@ -32,4 +32,4 @@ else:
 # running for each model
 for model in model_list:
     sts_eval = EmbeddingSimilarityEval_STSB(model, eval_data_path, main_similarity=SimilarityFunction.COSINE, name=args.benchmark_name, show_progress_bar=True, write_csv=True)
-    sts_eval.run_eval(output_path=args.output)
+    sts_eval.run_eval(output_path=args.output) 
